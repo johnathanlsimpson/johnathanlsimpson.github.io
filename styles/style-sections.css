@@ -440,3 +440,12 @@ article.active .work__images-container {
 	--top-color: var(--green);
 	--bottom-color: var(--blue);
 }
+
+.section--about p {
+	font-size: 1rem !important;
+}
+@media(min-width: 800px) {
+	.section--about p {
+		font-size: 1.5rem !important;
+	}
+}

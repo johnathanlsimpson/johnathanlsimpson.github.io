@@ -1,8 +1,8 @@
 <article class="slide slide--rarezhut">
 	<section class="work__container work__images middled">
 		<div class="work__images-container">
-			<div class="vkgy--1 work__image " style="background-image:url(/images/img-rarezhut-2.png);"></div>
-			<div class="vkgy--2 work__image" style="background-image:url(/images/img-rarezhut-1.png);"></div>
+			<div class="vkgy--1 work__image " style="background-image:url(images/img-rarezhut-2.png);"></div>
+			<div class="vkgy--2 work__image" style="background-image:url(images/img-rarezhut-1.png);"></div>
 		</div>
 	</section>
 

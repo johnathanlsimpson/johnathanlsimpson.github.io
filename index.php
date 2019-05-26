@@ -2,9 +2,9 @@
 <html>
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Pirata+One|Noto+Serif+JP&font-display=swap" rel="stylesheet" />
-		<link rel="stylesheet" type="text/css" href="/styles/external/style-fullpage.css" />
-		<link href="/styles/style-shared.css" rel="stylesheet" type="text/css" />
-		<link href="/styles/style-sections.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="styles/external/style-fullpage.css" />
+		<link href="styles/style-shared.css" rel="stylesheet" type="text/css" />
+		<link href="styles/style-sections.css" rel="stylesheet" type="text/css" />
 		
 		<meta charset="utf-8" />
 		<meta content="initial-scale=1, width=device-width" name="viewport" />
@@ -43,7 +43,7 @@
 			?>
 		</div>
 		
-		<script src="/scripts/external/script-fullpage.js" type="text/javascript"></script>
+		<script src="scripts/external/script-fullpage.js" type="text/javascript"></script>
 		<script>
 			new fullpage('#fullpage', {
 				anchors: [ 'top', 'development', 'thirdPage', 'fourthPage' ],

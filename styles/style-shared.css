@@ -137,6 +137,9 @@ a:hover {
 l {
 	letter-spacing: initial;
 }
+p + p {
+	padding-top: 0 !important;
+}
 
 /* Structure */
 .middled {
