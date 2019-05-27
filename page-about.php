@@ -14,7 +14,7 @@
 			Desig<l>n</l>
 		</span>-->
 		
-		<div class="work__summary" style="color: rgb(var(--yellow)); ">
+		<div class="work__summary" style="color: rgb(var(--yellow)); border:none; width: 100%; padding: 0; align-items: center;">
 			
 			<p class="text--primary work__description" style="font-size: 2rem; text-transform: none;">
 				Hi, my name is <span style="font-family: 'pirata one'; font-size: 2.5em; color:white; 
@@ -30,41 +30,29 @@
 			</p>
 			
 			<p class="text--primary work__description" style="color: white;color: rgb(var(--yellow)); font-size: 1.5rem; text-transform: none;">
-				Need a website? <a href="">Let's talk</a>!
+				Need a website? <span class="work__description-bg" style="display: inline;"><a class="" href="mailto:johnathan.l.simpson@gmail.com" target="_blank" style="color:black;">Let's talk</a></span>!
 			</p>
-			
-		</div>
-		
-		
-
-		
-		
-	</section>
-	
-	
-	
-	
-	<section class="work__container work__details middled" style="height: 100%;">
-		
-		<!--<span class="work__title text--spaced design__title" href="https://vk.gy/" style="color:black; background:white;">
-			Desig<l>n</l>
-		</span>-->
-		
-		<div class="work__summary work__summary--right" style="padding-left:50%;">
-			
-			<p class="text--secondary work__description" style="width:500px;color: white; font-size: 2rem; text-transform: none;">
-				<span class="work__description-bg" style="display: inline;"><a class="" href="https://medium.com/" target="_blank" style="color:black;">Github</a><br />
-	<a class="" href="https://medium.com/" target="_blank" style="color:black;">Twitter</a><br />
-	<a class="" href="https://medium.com/" target="_blank" style="color:black;">Instagram</a><br />
-					<a class="" href="https://medium.com/" target="_blank" style="color:black;">Mail</a></span>
+			<p class="text--secondary work__description" style="color: white; font-size: 2rem; text-transform: none;">
+				<span class="work__description-bg" style="display: inline;"><a class="" href="https://github.com/johnathanlsimpson/" target="_blank" style="color:black;">Github</a><br />
+				<a class="" href="https://twitter.com/vkgy_" target="_blank" style="color:black;">Twitter</a><br />
+					<a class="" href="https://iinartistic.instagram.com" target="_blank" style="color:black;">Instagram</a><br />
+					<a class="" href="mailto:johnathan.l.simpson@gmail.com" target="_blank" style="color:black;">Mail</a></span>
 				
 			</p>
 			
 		</div>
 		
 		
+<style>
+	.section--about p {
+		border:none;
+	}
+		</style>
+		
 		
 	</section>
+	
+	
 	
 	
 

@@ -211,6 +211,7 @@
 	background-size: 0 100%;
 	color: rgba(0,0,0, 0);
 	display: none;
+	padding: 4px 0;
 	transition: background-size 0s linear 0.7s, color 0s linear 0.7s;
 }
 @media(min-width: 800px) {
@@ -277,6 +278,7 @@ article.active .work__images-container {
 				grid-template-columns: repeat(20, 1fr);
 				grid-template-rows: repeat(20, 1fr);
 				height: 100%;
+					height: auto;
 				max-width: 1112px;
 				min-width: 60%;
 				width: 100%;
@@ -285,7 +287,6 @@ article.active .work__images-container {
 			}
 			@media(min-width: 800px) {
 				.work__images-container {
-					height: auto;
 					transform: rotateX(50deg) rotateY(0deg) rotateZ(40deg);
 					width: 130%;
 				}
