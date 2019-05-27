@@ -1,12 +1,17 @@
 <!--<template id="tech">
+	<?php ob_start(); ?>
 	<span class="text--pill">{tech}</span>
+	<?php $template_pill = ob_get_clean(); ?>
 </template>
 
 <template id="image">
+	<?php ob_start(); ?>
 	<div class="slide__image {image_class}" style="background-image: url({image_url});"></div>
+	<?php $template_image = ob_get_clean(); ?>
 </template>
 
 <template id="slide">
+	<?php ob_start(); ?>
 	<article class="slide__wrapper {slide_class}">
 		<section class="slide__container slide__text {text_class}">
 			<a class="slide__title text--spaced a--filled a--alt-filled a--attention" href="{url}" target="_blank">
@@ -35,9 +40,21 @@
 			</a>
 		</section>
 	</article>
+	<?php $template_slide = ob_get_clean(); ?>
 </template>-->
 
 <?php
+	function render($template, $input = []) {
+		$output = $template;
+		
+		foreach($input as $key => $value) {
+			$output = str_replace('{'.$key.'}', $value, $output);
+		}
+		
+		$output = preg_replace('/'.'{.+?}'.'/', '', $output);
+		
+		return $output;
+	}
 ?>
 
 
@@ -46,7 +63,7 @@
 <article class="slide slide--vkgy">
 	<section class="work__container work__images middled">
 		<div class="work__images-container">
-			<div class="vkgy--1 work__image work__image--bottom"></div>
+			<div class="vkgy--1 work__image work__image--bottom" style="background-image:url(images/img-vkgy-main.png);"></div>
 			<div class="vkgy--2 work__image work__image--middle"></div>
 			<div class="vkgy--3 work__image work__image--horizontal"></div>
 		</div>
@@ -59,7 +76,7 @@
 
 		<div class="work__summary">
 			<p class="work__description text--secondary">
-				<span class="work__description-bg">Lead developer, designer, and community manager for multi-lingual library of band information. Custom design powered by custom PHP/SQL CMS. Managed successful Patreon campaign.</span>
+				<span class="work__description-bg">Developed custom PHP/SQL CMS with custom frontend, as lead developer and designer for multi-lingual library of band information.</span>
 				<span class="work__tech">PHP7</span>
 				<span class="work__tech">SQL</span>
 				<span class="work__tech">JS ES6</span>
@@ -72,6 +89,6 @@
 			</p>
 		</div>
 
-		<a class="a--circled a--filled text--primary text--spaced" href="https://medium.com/" target="_blank">Rea<l>d</l></a>
+		<a class="a--circled a--filled text--primary text--spaced" href="https://medium.com/@johnathan.l.simpson/vk-gy-fc1376fd0b4c" target="_blank">Rea<l>d</l></a>
 	</section>
 </article>

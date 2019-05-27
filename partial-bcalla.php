@@ -1,7 +1,7 @@
 <article class="slide slide--rarezhut">
 	<section class="work__container work__images middled">
 		<div class="work__images-container">
-			<div class="vkgy--1 work__image " style="background-image:url(/images/img-rarezhut-2.png);"></div>
+			<div class="vkgy--1 work__image " style="background-image:url(images/bcalla.png);"></div>
 			<div class="vkgy--2 work__image" style="background-image:url(/images/img-rarezhut-1.png);"></div>
 		</div>
 	</section>
@@ -13,7 +13,7 @@
 
 		<div class="work__summary">
 			<p class="work__description text--secondary">
-				<span class="work__description-bg">Valentine's Day campaign for NY fashion designer BCALLA that allows visitors to email virtual Valentines.</span>
+				<span class="work__description-bg">Developed interactive single-page website that allowed users to send virtual valentines, for NY fashion designer BCALLA's Fall-Winter collection.</span>
 				<span class="work__tech">jQuery</span>
 				<span class="work__tech">HTML5</span>
 				<span class="work__tech">CSS3</span>
@@ -21,6 +21,6 @@
 			</p>
 		</div>
 
-		<a class="a--circled a--filled text--primary text--spaced" href="https://medium.com/" target="_blank">Rea<l>d</l></a>
+		<a class="a--circled a--filled text--primary text--spaced" href="https://medium.com/@johnathan.l.simpson/vk-gy-fc1376fd0b4c" target="_blank">Rea<l>d</l></a>
 	</section>
 </article>
