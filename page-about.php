@@ -1,6 +1,6 @@
 <article class="section section--about" data-anchor="fourthPage">
 	<h1 class="section__title">
-		Abouttttt
+		About
 	</h1>
 	
 	
