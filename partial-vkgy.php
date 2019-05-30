@@ -1,4 +1,4 @@
-<!--<template id="tech">
+<template id="tech">
 	<?php ob_start(); ?>
 	<span class="text--pill">{tech}</span>
 	<?php $template_pill = ob_get_clean(); ?>
@@ -41,7 +41,15 @@
 		</section>
 	</article>
 	<?php $template_slide = ob_get_clean(); ?>
-</template>-->
+</template>
+
+<template id="page">
+	<?php ob_start(); ?>
+	<div class="section page__wrapper" data-anchor="{page_name}">
+		{slides}
+	</div>
+	<?php $template_page = ob_get_clean(); ?>
+</template>
 
 <?php
 	function render($template, $input = []) {
@@ -63,9 +71,9 @@
 <article class="slide slide--vkgy">
 	<section class="work__container work__images middled">
 		<div class="work__images-container">
-			<div class="vkgy--1 work__image work__image--bottom" style="background-image:url(images/img-vkgy-main.png);"></div>
-			<div class="vkgy--2 work__image work__image--middle"></div>
-			<div class="vkgy--3 work__image work__image--horizontal"></div>
+			<div class="work__image" style="background-image:url(images/img-vkgy-artist.png); grid-column: 1 / span 18; grid-row: 3 / span 18;"></div>
+			<!--<div class="vkgy--2 work__image work__image--middle"></div>
+			<div class="vkgy--3 work__image work__image--horizontal"></div>-->
 		</div>
 	</section>
 

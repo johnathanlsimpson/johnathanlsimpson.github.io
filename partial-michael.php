@@ -1,9 +1,7 @@
 <article class="slide slide--rarezhut">
 	<section class="work__container work__images middled">
 		<div class="work__images-container">
-			<div class="vkgy--2 work__image" style="background-image:url(images/michael3.gif); grid-column: 1 / span 18; grid-row: 1 / span 16;"></div>
-			<div class="vkgy--2 work__image" style="background-image:url(images/michael1.gif); grid-column: 1 / span 18; grid-row: 1 / span 16;"></div>
-			<div class="vkgy--2 work__image" style="background-image:url(images/michael2.gif); grid-column: 1 / span 18; grid-row: 1 / span 16;"></div>
+			<div class="work__image" style="background-image:url(images/img-michael.jpg); grid-column: 1 / span 18; grid-row: 3 / span 16;"></div>
 		</div>
 	</section>
 	
