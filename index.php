@@ -9,6 +9,8 @@
 		<meta charset="utf-8" />
 		<meta content="initial-scale=1, width=device-width" name="viewport" />
 		
+		<title>John Simpson (.dev) | Web development and design in Harrisonburg, VA</title>
+		
 		<style>
 		</style>
 	</head>
@@ -21,12 +23,6 @@
 				<a class="nav__bullet a--attention" data-menuanchor="development" href="#development"></a>
 				<a class="nav__bullet a--attention" data-menuanchor="thirdPage" href="#thirdPage"></a>
 				<a class="nav__bullet a--attention" data-menuanchor="fourthPage" href="#fourthPage"></a>
-			</div>
-			
-			<div class="nav--contact">
-				<a class="a--attention" href="">Development</a>
-				<a class="a--attention" href="">Design</a>
-				<a class="a--attention" href="">Contact</a>
 			</div>
 		</div>
 		
