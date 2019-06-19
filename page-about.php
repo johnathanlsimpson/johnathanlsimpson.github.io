@@ -13,7 +13,7 @@
 			</p>
 			
 			<ul>
-				<li><s>View my</s> <a href="https://github.com/johnathanlsimpson/resume/" target="_blank">resume</a> (<a href="" target="_blank">PDF</a>)<s>.</s></li>
+				<li><s>View my</s> <a href="https://github.com/johnathanlsimpson/resume/" target="_blank">resume</a> (<a href="https://johnsimpson.dev/resume-20190619.pdf" target="_blank">PDF</a>)<s>.</s></li>
 				<li><s>Review my code on</s> <a href="https://github.com/johnathanlsimpson/" target="_blank">Github</a><s>.</s></li>
 				<li><s>Read about my projects on</s> <a href="https://medium.com/@johnathan.l.simpson" target="_blank">Medium</a><s>.</s></li>
 				<li><s>Check out my cats on</s> <a href="https://www.instagram.com/iinartistic/" target="_blank">Instagram</a><s>.</s></li>
