@@ -39,6 +39,12 @@
 			?>
 		</div>
 		
+		<script>
+		window.onresize = function() {
+			document.body.height = window.innerHeight;
+		}
+		window.onresize();
+		</script>
 		<script src="scripts/external/script-fullpage.js" type="text/javascript"></script>
 		<script>
 			new fullpage('#fullpage', {
