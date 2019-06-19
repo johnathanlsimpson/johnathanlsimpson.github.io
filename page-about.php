@@ -6,17 +6,17 @@
 	<section class="text--primary">
 		<div>
 			<h2>
-				Hi, I'm <span>John</span>, a frontend web developer and designer from Harrisonburg, VA.
+				<s>Hi, </s>I'm <span>John</span>, a <s>frontend web</s> developer <s>and designer</s> from Harrisonburg, VA.
 			</h2>
 			<p>
-				I 💕 PHP, SQL, CSS, and <a href="https://last.fm/user/inartistic/" target="_blank">bad music</a>. Need a website? <a href="mailto:johnathan.l.simpson@gmail.com" target="_blank">Let's talk</a>. Or, find me below.
+				I 💕 PHP, SQL, CSS, and <a href="https://last.fm/user/inartistic/" target="_blank">bad music</a>. Need a website? <a href="mailto:johnathan.l.simpson@gmail.com" target="_blank">Let's talk</a>. <s>Or, find me below.</s>
 			</p>
 			
 			<ul>
-				<li>Review my code on <a href="https://github.com/johnathanlsimpson/" target="_blank">Github</a>.</li>
-				<li>Read about my projects on <a href="https://medium.com/@johnathan.l.simpson" target="_blank">Medium</a>.</li>
-				<li>Get my bad opinions on <a href="https://twitter.com/vkgy_" target="_blank">Twitter</a>.</li>
-				<li>Check out my cats on <a href="https://www.instagram.com/iinartistic/" target="_blank">Instagram</a>.</li>
+				<li><s>View my</s> <a href="https://github.com/johnathanlsimpson/resume/" target="_blank">resume</a> (<a href="" target="_blank">PDF</a>)<s>.</s></li>
+				<li><s>Review my code on</s> <a href="https://github.com/johnathanlsimpson/" target="_blank">Github</a><s>.</s></li>
+				<li><s>Read about my projects on</s> <a href="https://medium.com/@johnathan.l.simpson" target="_blank">Medium</a><s>.</s></li>
+				<li><s>Check out my cats on</s> <a href="https://www.instagram.com/iinartistic/" target="_blank">Instagram</a><s>.</s></li>
 			</ul>
 		</div>
 	</section>
@@ -27,18 +27,39 @@
 			bottom: 0;
 			color: rgb(var(--yellow));
 			display: flex;
-			font-size: 1.1rem;
-			font-size: 1.25rem;
+			font-size: 1rem;
 			font-weight: bold;
 			justify-content: center;
 			left: 0;
 			letter-spacing: 2px;
 			line-height: 1.5em;
-			padding: 4rem;
+			padding: 2rem;
+			padding-left: 4rem;
 			position: absolute;
 			right: 0;
 			text-transform: none;
 			top: 0;
+		}
+		.section--about a {
+			border-bottom: 1px solid;
+		}
+		.section--about s {
+			display: none;
+			text-decoration: none;
+		}
+		.section--about ul {
+			list-style: none;
+		}
+		@media (min-height: 600px) and (min-width: 800px) {
+			.section--about section {
+				font-size: 1.25rem;
+			}
+			.section--about ul {
+				list-style: initial;
+			}
+			.section--about s {
+				display: initial;
+			}
 		}
 		.section--about section > div {
 			max-width: 100%;
