@@ -20,6 +20,6 @@
 			</p>
 		</div>
 
-		<a class="a--circled a--filled text--primary text--spaced" href="https://medium.com/@johnathan.l.simpson/vk-gy-fc1376fd0b4c" target="_blank">Rea<l>d</l></a>
+		<a class="a--circled a--filled text--primary text--spaced" href="https://medium.com/@johnathan.l.simpson/work-bcalla-f-96c7a07fe3d6" target="_blank">Rea<l>d</l></a>
 	</section>
 </article>

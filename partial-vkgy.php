@@ -97,6 +97,6 @@
 			</p>
 		</div>
 
-		<a class="a--circled a--filled text--primary text--spaced" href="https://medium.com/@johnathan.l.simpson/vk-gy-fc1376fd0b4c" target="_blank">Rea<l>d</l></a>
+		<a class="a--circled a--filled text--primary text--spaced" href="https://medium.com/@johnathan.l.simpson/work-vk-gy-c0286afa81be" target="_blank">Rea<l>d</l></a>
 	</section>
 </article>

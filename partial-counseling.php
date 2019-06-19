@@ -21,6 +21,6 @@
 			</p>
 		</div>
 
-		<a class="a--circled a--filled text--primary text--spaced" href="https://medium.com/@johnathan.l.simpson/vk-gy-fc1376fd0b4c" target="_blank">Rea<l>d</l></a>
+		<a class="a--circled a--filled text--primary text--spaced" href="https://medium.com/@johnathan.l.simpson/making-counseling-group-667927d9f44c" target="_blank">Rea<l>d</l></a>
 	</section>
 </article>
