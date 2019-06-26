@@ -8,7 +8,7 @@
 	
 	<section class="work__container work__container--top work__images design__images-wrapper">
 		<div class="work__images-container design__images-container design__images--top" style="border:none;">
-			<div class="work__image" style="background-image: url(img-design-top.png); grid-column: 1 / span 20; grid-row: 1 / span 20;"></div>
+			<div class="work__image" style="background-image: url(images/img-design-top.png); grid-column: 1 / span 20; grid-row: 1 / span 20;"></div>
 		</div>
 	</section>
 
@@ -17,7 +17,7 @@
 	
 	<section class="work__container work__container--bottom work__images design__images-wrapper">
 		<div class="work__images-container design__images-container design__images--bottom">
-			<div class="work__image" style="background-image: url(img-design-bottom.png); grid-column: 1 / span 20; grid-row: 1 / span 20;"></div>
+			<div class="work__image" style="background-image: url(images/img-design-bottom.png); grid-column: 1 / span 20; grid-row: 1 / span 20;"></div>
 		</div>
 	</section>
 	

@@ -1,7 +1,7 @@
 <article class="slide slide--rarezhut">
 	<section class="work__container work__images middled">
 		<div class="work__images-container">
-			<div class="work__image" style="background-image:url(img-counseling.jpg); grid-column: 3 / span 13; grid-row: 1 / span 20;"></div>
+			<div class="work__image" style="background-image:url(images/img-counseling.jpg); grid-column: 3 / span 13; grid-row: 1 / span 20;"></div>
 		</div>
 	</section>
 

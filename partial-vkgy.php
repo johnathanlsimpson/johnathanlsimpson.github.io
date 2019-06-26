@@ -71,7 +71,7 @@
 <article class="slide slide--vkgy">
 	<section class="work__container work__images middled">
 		<div class="work__images-container">
-			<div class="work__image" style="background-image:url(img-vkgy.jpg); grid-column: 1 / span 18; grid-row: 3 / span 18;"></div>
+			<div class="work__image" style="background-image:url(images/img-vkgy.jpg); grid-column: 1 / span 18; grid-row: 3 / span 18;"></div>
 		</div>
 	</section>
 
