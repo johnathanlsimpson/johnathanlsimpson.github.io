@@ -1,7 +1,7 @@
 <article class="slide slide--rarezhut">
 	<section class="work__container work__images middled">
 		<div class="work__images-container">
-			<div class="work__image" style="background-image:url(images/img-michael.jpg); grid-column: 1 / span 18; grid-row: 3 / span 16;"></div>
+			<div class="work__image" style="background-image:url(img-michael.jpg); grid-column: 1 / span 18; grid-row: 3 / span 16;"></div>
 		</div>
 	</section>
 	
@@ -16,9 +16,9 @@
 	</style>
 
 	<section class="work__container work__details middled">
-		<a class="work__title text--spaced a--filled a--alt-filled a--attention" href="https://vk.gy/">
+		<div class="work__title text--spaced">
 			Michael Bur<l>k</l>
-		</a>
+		</div>
 
 		<div class="work__summary">
 			<p class="work__description text--secondary">
