@@ -21,8 +21,8 @@
 			<div class="nav--sections" id="menu">
 				<a class="nav__bullet a--attention" data-menuanchor="top" href="#top"></a>
 				<a class="nav__bullet a--attention" data-menuanchor="development" href="#development"></a>
-				<a class="nav__bullet a--attention" data-menuanchor="thirdPage" href="#thirdPage"></a>
-				<a class="nav__bullet a--attention" data-menuanchor="fourthPage" href="#fourthPage"></a>
+				<a class="nav__bullet a--attention" data-menuanchor="design" href="#design"></a>
+				<a class="nav__bullet a--attention" data-menuanchor="about" href="#about"></a>
 			</div>
 		</div>
 		
@@ -48,7 +48,7 @@
 		<script src="scripts/external/script-fullpage.js" type="text/javascript"></script>
 		<script>
 			new fullpage('#fullpage', {
-				anchors: [ 'top', 'development', 'thirdPage', 'fourthPage' ],
+				anchors: [ 'top', 'development', 'design', 'about' ],
 				autoScrolling: true,
 				licenseKey: 'bY0!fx9l',
 				menu: '#menu',

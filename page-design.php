@@ -1,4 +1,4 @@
-<article class="section section--design" data-anchor="thirdPage">
+<article class="section section--design" data-anchor="design">
 	<h1 class="section__title">
 		Design
 	</h1>
