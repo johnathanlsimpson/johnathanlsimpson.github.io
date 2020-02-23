@@ -92,6 +92,9 @@
 				<span class="work__tech">cron</span>
 				<span class="work__tech">Git</span>
 				<span class="work__tech">CL</span>
+				<span class="work__tech">Marketing</span>
+				<span class="work__tech">Design</span>
+				<span class="work__tech">SEO</span>
 			</p>
 		</div>
 
