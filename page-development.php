@@ -6,7 +6,7 @@
 	
 	<?php
 		include('partial-vkgy.php');
-		include('partial-innovative.php');
+		//include('partial-innovative.php');
 		include('partial-rarezhut.php');
 		include('partial-counseling.php');
 		include('partial-bcalla.php');
@@ -20,6 +20,6 @@
 		<a class="nav__bullet a--attention" href="#development/2"></a>
 		<a class="nav__bullet a--attention" href="#development/3"></a>
 		<a class="nav__bullet a--attention" href="#development/4"></a>
-		<a class="nav__bullet a--attention" href="#development/5"></a>
+		<!--<a class="nav__bullet a--attention" href="#development/5"></a>-->
 	</div>
 </div>
